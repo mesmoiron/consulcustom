@@ -8,7 +8,7 @@ en:
       subtitle: LEGAL NOTICE ON THE CONDITIONS OF USE, PRIVACY AND PROTECTION OF PERSONAL DATA OF THE OPEN GOVERNMENT PORTAL
       description: Information page on the conditions of use, privacy and protection of personal data.
     help:
-      title: "%{org} is a platform for XXXXXXX participation"
+      title: "%{org} is a platform for collaborative product development"
       guide: "This guide explains what each of the %{org} sections are for and how they work."
       menu:
         debates: "Debates"

@@ -1,0 +1,13 @@
+{
+  "name": "My Dev Container ConsulCustom",
+  "dockerFile": "Dockerfile",
+  "mounts": [
+    "source=/home/mesmoiron/##2023ProjectSpace/GitHubSpace/consulcustom,target=/workspace,type=bind,consistency=cached"
+  ],
+  "extensions": [
+    "ms-vscode.node-debug2"
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  }
+}

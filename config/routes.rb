@@ -46,3 +46,10 @@ Rails.application.routes.draw do
   # Static pages
   resources :pages, path: "/", only: [:show]
 end
+
+# config/routes.rb
+Rails.application.routes.draw do
+  # ... (existing routes)
+
+  get '/custom/pages/test', to: 'custom/pages#test'
+end

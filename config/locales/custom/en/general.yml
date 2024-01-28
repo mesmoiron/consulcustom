@@ -109,9 +109,9 @@ en:
         title: Debates
         help: Help with debates
       section_footer:
-        title: Help with debates
-        description: Start a debate to share opinions with others about the topics you are concerned about.
-        help_text_1: "The space for citizen debates is aimed at anyone who can expose issues of their concern and those who want to share opinions with other people."
+        title: Help with product debates
+        description: Start a debate to share opinions with others about the topics you are care about.
+        help_text_1: "The space for collaborative debates is aimed at anyone who can point out issues of their concern and those who want to share opinions with other people."
         help_text_2: 'To open a debate you need to sign up on %{org}. Users can also comment on open debates and rate them with the "I agree" or "I disagree" buttons found in each of them.'
     new:
       form:
@@ -197,12 +197,12 @@ en:
       conditions: Terms and conditions of use
       consul: CONSUL DEMOCRACY application
       consul_url: https://github.com/consuldemocracy/consuldemocracy
-      copyright: CONSUL DEMOCRACY, %{year}
+      copyright: COLLABB, %{year}
       description: This portal uses the %{consul} which is %{open_source}.
       open_source: open-source software
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
-      participation_text: Decide how to be the change by participating.
-      participation_title: Participation
+      participation_text: We make it easy to start with simple contributions.
+      participation_title: Collaborate and Contribute?
       privacy: Privacy Policy
     header:
       administration_menu: Menu
@@ -217,7 +217,7 @@ en:
       help: Help
       my_account_link: My account
       my_activity_link: My content
-      open_gov: Open Collaboration
+      open_gov: Open Collaborative Product Development (OPCD)
       proposals: Proposals
       poll_questions: Voting
       budgets: Participatory budgeting

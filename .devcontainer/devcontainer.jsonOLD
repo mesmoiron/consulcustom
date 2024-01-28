@@ -1,0 +1,22 @@
+{
+  "name": "Custom Ubuntu Dev Container",
+  "dockerFile": "Dockerfile",
+
+  // Add your desired extensions (optional)
+  "extensions": [
+    "ms-vscode.node-debug2"
+  ],
+
+  // Set environment variables (optional)
+  "remoteEnv": {
+    "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+  },
+
+  // Add any additional settings (optional)
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+
+  // Specify post create commands (optional)
+  "postCreateCommand": "echo 'Post create command executed.'"
+}
