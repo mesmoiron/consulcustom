@@ -20,10 +20,16 @@ Bundler/OrderedGems:
   Enabled: true
   ConsiderPunctuation: true
 
+Capybara/ClickLinkOrButtonStyle:
+  Enabled: true
+
 Capybara/CurrentPathExpectation:
   Enabled: true
 
 Capybara/NegationMatcher:
+  Enabled: true
+
+Capybara/RSpec/HaveSelector:
   Enabled: true
 
 Capybara/SpecificActions:
@@ -437,6 +443,9 @@ Rails/PluralizationGrammar:
 Rails/Presence:
   Enabled: true
 
+Rails/RedundantActiveRecordAllMethod:
+  Enabled: true
+
 Rails/RedundantTravelBack:
   Enabled: true
 
@@ -459,6 +468,9 @@ Rails/SafeNavigation:
 Rails/SaveBang:
   Enabled: true
   Severity: refactor
+
+Rails/SelectMap:
+  Enabled: true
 
 Rails/SkipsModelValidations:
   Enabled: true
@@ -683,6 +695,7 @@ Style/InvertibleUnlessCondition:
   Enabled: true
   InverseMethods:
     :blank?: :present?
+    :include?: ~
     :present?: :blank?
     :zero?: ~
 

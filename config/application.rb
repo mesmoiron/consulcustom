@@ -51,7 +51,7 @@ module Consul
 
     # Set Time.zone default to the specified zone and make Active Record auto-convert to this zone.
     # Run "rake -D time" for a list of tasks for finding time zone names. Default is UTC.
-    config.time_zone = "Madrid"
+    config.time_zone = Rails.application.secrets.time_zone.presence || "Madrid"
 
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
@@ -139,7 +139,7 @@ module Consul
     config.paths["app/views"].unshift(Rails.root.join("app", "views", "custom"))
 
     # Set to true to enable user authentication log
-    config.authentication_logs = Rails.application.secrets.dig(:security, :authentication_logs) || false
+    config.authentication_logs = Rails.application.secrets.authentication_logs || false
 
     # Set to true to enable devise user lockable feature
     config.devise_lockable = Rails.application.secrets.devise_lockable
